@@ -1,0 +1,36 @@
+body{
+    background-image: url('farmacia.jpg');
+}
+
+#menu{
+    background: rgba(5,7,12,0.40);
+}
+
+#usuario a{
+    color:black;
+}
+
+nav ul li{
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a::before{
+    display: block;
+    content: '';
+    width: 0%;
+    background: #444;
+    height: 5px;    
+    top:0;
+    position: absolute;
+    transition: width 0.2s;
+}
+
+nav ul li a:hover::before{
+    width: 80%;
+}

@@ -1,0 +1,7 @@
+farmacia\modelo\DAO\usuarioDAO.class
+farmaciaConexion\CONEXION.class
+farmacia\modelo\bean\usuario.class
+farmaciaControlador\servletProducto.class
+farmacia\modelo\bean\producto.class
+farmacia\modelo\DAO\productoDAO.class
+farmaciaControlador\servletUsuario.class
